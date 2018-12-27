@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mediator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Work.cs" />
+    <Compile Include="WorkChangedEventArgs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
